@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav>
-      <ul>
+      <ul class="nav-list">
         <li><a href="/index.html">Home</a></li>
         <li><a href="/about.html">About</a></li>
         <li><a href="/Landscapes.html">Landscape</a></li>
@@ -26,10 +26,21 @@
         action="https://formforsite.com/send/Y2l0eW5hdGl2ZS5waG90b2dyYXBoeUBnbWFpbC5jb20"
         method="POST"
       >
-        <input name="name" type="text" />
-        <input name="email" type="text" />
-        <textarea name="message" rows="5\"></textarea>
-        <button type="submit">Submit</button>
+        <div class="contact-form">
+          <div id="name">
+            <label for="name">Your Name:</label>
+            <input name="name" type="text" />
+          </div>
+          <div id="email">
+            <label for="email">Your E-mail:</label>
+            <input name="email" type="text" />
+          </div>
+          <div id="message">
+            <label for="message">Message:</label>
+            <textarea name="message" rows="5\"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </div>
   </body>
