@@ -1,47 +1,20 @@
-@font-face {
-  font-family: "Latin Modern Roman";
-  font-weight: normal;
-  font-style: normal;
-  format("woff2");
-}
-@font-face {
-  font-family: "Latin Modern Roman";
-  font-weight: normal;
-  font-style: italic;
-    format("woff2");
-}
-@font-face {
-  font-family: "Latin Modern Roman";
-  font-weight: bold;
-  font-style: italic;
-}
 body {
-  background-color: white;
+  background-color: #0b6549;
   font-size: 13pt;
 }
 body {
-  font-family: "Latin Modern Roman", serif;
-  counter-reset: theorem;
-  counter-reset: definition;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 h2 h3 h4 h5 h6 {
   border: 0;
   font-weight: bold;
 }
 a,
 a:visited {
-  color: #a00;
+  color: #042727;
 }
 ul {
   list-style: none;
-}
-body {
-  margin: 2em auto;
 }
 h1:first-of-type {
   text-align: center;
@@ -49,63 +22,6 @@ h1:first-of-type {
 }
 body {
   text-align: justify;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
   hyphens: auto;
   padding: 0 1 em;
-}
-dl dd {
-  text-align: center;
-}
-.theorem {
-  counter-increment: theorem;
-  display: block;
-  margin: 12px 0;
-  font-style: italic;
-}
-.theorem:before {
-  content: "Theorem " counter(theorem) ".";
-  font-weight: bold;
-  font-style: normal;
-}
-.lemma {
-  counter-increment: theorem;
-  display: block;
-  margin: 12px 0;
-  font-style: italic;
-}
-.lemma:before {
-  content: "Lemma " counter(theorem) ".";
-  font-weight: bold;
-  font-style: normal;
-}
-.proof {
-  display: block;
-  margin: 12px 0;
-  font-style: normal;
-}
-.proof:before {
-  content: "Proof.";
-  font-style: italic;
-}
-.proof:after {
-  content: "\25FB";
-  float: right;
-}
-.definition {
-  counter-increment: definition;
-  display: block;
-  margin: 12px 0;
-  font-style: normal;
-}
-.definition:before {
-  content: "Definition " counter(definition) ".";
-  font-weight: bold;
-  font-style: normal;
-}
-.author {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  font-variant-caps: small-caps;
-  text-align: center;
 }
