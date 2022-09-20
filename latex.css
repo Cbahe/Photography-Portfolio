@@ -1,9 +1,10 @@
 body {
-  background-color: #0b6549;
+  background-color: #a3cc88;
   font-size: 13pt;
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #042727;
 }
 h1 h2 h3 h4 h5 h6 {
   border: 0;
@@ -11,7 +12,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 a,
 a:visited {
-  color: #042727;
+  color: #0b6549;
 }
 ul {
   list-style: none;
