@@ -1,5 +1,4 @@
 body {
-  background-color: #a3cc88;
   font-size: 13pt;
 }
 body {
@@ -12,7 +11,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 a,
 a:visited {
-  color: #0b6549;
+  color: white;
 }
 ul {
   list-style: none;
@@ -24,5 +23,4 @@ h1:first-of-type {
 body {
   text-align: justify;
   hyphens: auto;
-  padding: 0 1 em;
 }

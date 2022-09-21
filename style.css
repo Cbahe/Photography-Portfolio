@@ -7,20 +7,31 @@ nav {
   align-items: center;
   text-align: center;
 }
+.home {
+  background: url("catus.jpg") no-repeat;
+  background-size: cover;
+}
 .home nav {
   position: unset;
   width: 250px;
   height: 100%;
   display: contents;
   text-align: center;
-  line-height: 25px;
+  line-height: 5px;
+}
+#info ul {
+  color: ghostwhite;
+}
+a:link {
+  color: white;
+  text-decoration: none;
 }
 body {
   display: flex;
 }
 .nav-list {
   height: 100%;
-  background: #d9c9bc;
+  background: #358856;
   margin: 0%;
   padding: 2rem;
   line-height: 50px;
@@ -31,8 +42,9 @@ body {
 }
 #info {
   text-align: center;
-  padding: 3rem;
-  padding-top: 0%;
+  padding: 25px;
+  background: rgba(80, 80, 80, 0.5);
+  color: ghostwhite;
 }
 nav li {
   display: center;
@@ -41,4 +53,25 @@ nav li {
 }
 .container {
   max-width: 50%;
+}
+#place {
+  text-align: center;
+  padding: 3rem;
+  padding-top: 0%;
+}
+.main-form {
+  line-height: 30px;
+  padding: 3rem;
+  padding-top: 0%;
+}
+#topcontainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.column {
+  width: 100%;
+}
+.contact-form {
+  text-align: center;
 }
