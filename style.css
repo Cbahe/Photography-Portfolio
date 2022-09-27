@@ -61,8 +61,10 @@ nav li {
   padding: 20px;
 }
 .container {
-  max-width: 50%;
   margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
 }
 #place {
   text-align: center;
@@ -91,4 +93,10 @@ nav li {
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
+}
+.container img {
+  width: auto;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 8px 5px 5px #046645;
 }
