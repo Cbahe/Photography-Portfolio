@@ -11,6 +11,9 @@ h1 h2 h3 h4 h5 h6 {
   font-weight: bold;
   color: #042727;
 }
+h3 {
+  text-align: center;
+}
 a,
 a:visited {
   color: white;
